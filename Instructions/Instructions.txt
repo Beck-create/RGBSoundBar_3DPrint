@@ -1,0 +1,20 @@
+WS2812(RGB light belt)
+Arduino Nano Super Mini(MCU)
+MAX9814(Microphone)
+PerfBoard
+Type-C terminal
+
+You may use Arduino IDE to programe
+
+Connections:
+
+Nano(A1)-MAX9814(OUT)
+Nano(5V)-Type-C terminal(+)
+Nano(GND)-Type-C terminal(-)
+MAX9814(VCC)-Nano(5V)
+MAX9814(GND)-Nano(GND)
+WS2812(+)-Nano(5V)
+WS2812(-)-Nano(GND)
+WS2812(Signal)-Nano(D3)
+
+You can connect MAX9814(Gain) to it's VCC ,GND or hang it to get different sensitive.
